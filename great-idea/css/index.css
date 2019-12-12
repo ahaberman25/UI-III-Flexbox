@@ -100,9 +100,6 @@ h1, h2, h3, h4, h5 {
 	text-align: center;
 }
 
-header .logo {
-}
-
 .hero {
 	padding-top: 8%;
 	display: flex;
@@ -182,4 +179,54 @@ footer a, footer .copyright {
 
 footer .copyright {
 	text-align: center;
+}
+
+/* SERVICES SPECIFIC CSS */
+
+.top-service {
+	width: 96%
+}
+
+.bottom-service {
+	width: 96%
+}
+
+.service-hero img {
+	width: 96%;
+	margin: 0 auto;
+	padding-top: 6%;
+}
+
+.service {
+	padding: 5% 2%;
+}
+
+.service h1 {
+	font-size: 2em;
+}
+
+.service-items-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.service-item {
+	width: 46%;
+	padding: 3%;
+	margin: 2%;
+	background: #F4F3F4;
+	border: 1px solid black;
+}
+
+.service-item p {
+	padding: 1% 0 5% 0;
+}
+
+.service-btn {
+	border: 1px solid black;
+	padding: 1% 5%;
+	text-decoration: none;
+	color: black;
+	background-color: white;
+	border-radius: 5px;
 }
