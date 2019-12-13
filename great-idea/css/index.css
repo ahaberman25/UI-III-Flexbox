@@ -264,3 +264,24 @@ footer .copyright {
 	text-align: center;
 	padding: 2% 0;
 }
+
+/* PRODUCTS PAGE */
+
+.product-container {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 0 0 3% 0;
+}
+
+.product {
+	width: 33%;
+	padding: 3%;
+	margin-top: 3%;
+	background: #F4F3F4;
+	border: 1px solid black;
+}
+
+.product p {
+	padding-bottom: 5%;
+}
