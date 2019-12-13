@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 .container {
-	width: 80%;
+	width: 800px;
 	margin: 0 auto;
 }
 
@@ -82,20 +82,25 @@ h1, h2, h3, h4, h5 {
 	background-image: linear-gradient(to bottom right, red, yellow);
 	background-color: #fff;
 	display: flex;
+	justify-content: center;
 	align-items: center;
 }
 
 .navigation {
-	width: 80%;
-	padding-left: 10%;
+	width: 800px;
+	padding-left: 4.8%;
 }
 
 .navigation a {
-	width: 10%;
-	padding-right: 10%;
+	padding-right: 5%;
 	text-decoration: none;
 	color: black;
 	text-align: center;
+}
+
+.logo {
+	position: relative;
+    right: 95px;
 }
 
 .hero {
@@ -110,8 +115,8 @@ h1, h2, h3, h4, h5 {
 }
 
 .hero-left .hero-title {
-	font-size: 5em;
-	padding-bottom: 3%;
+	font-size: 4em;
+	padding: 20% 3% 3% 3%;
 }
 
 .hero .hero-left span {
@@ -191,7 +196,7 @@ footer .copyright {
 
 .service-hero img {
 	width: 100%;
-	padding: 6% 0 0 0;
+	padding: 10% 0 0 0;
 }
 
 .service {
@@ -257,7 +262,8 @@ footer .copyright {
 }
 
 .services-info-img {
-	padding-left: 15%;
+	width: 100%;
+	padding-left: 12%;
 }
 
 .copyright {
@@ -275,7 +281,7 @@ footer .copyright {
 }
 
 .product {
-	width: 33%;
+	width: 50%;
 	padding: 3%;
 	margin-top: 3%;
 	background: #F4F3F4;
